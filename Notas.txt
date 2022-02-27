@@ -11,6 +11,9 @@ git branch: muestra las diversas "ramas" de nuestro código,
 git branch "nombre": crea una nueva "rama"
 git branch -d "nombre": elimina la rama
 
+Copiar un archivo/carpeta de una rama a otra
+Situarse en el destino -> git checkout "nombre"
+git checkout "rama_origen" "nombre archivo/carpeta"
 
 git log: para ver todos los commits creados
 git checkout -- "nombre_del_archivo": revertir cambios de un archivo
