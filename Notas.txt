@@ -2,3 +2,13 @@ ls: mostrar los archivos en la carpeta
 git init: inicializar repositorio en una carpeta
 git status: muestra los archivos con los que estamos trabajando
 git add "nombre_del_archivo": agregar archivos en el area de trabajo
+git commit: para crear un primer punto de control de nuestro código
+    (precionar letra i)Nombre (primera linea sin #),":" qw
+git log: para ver todos los commits creados
+git checkout -- "nombre_del_archivo": revertir cambios de un archivo
+git diff "nombre_del_archivo": muestra las diferencias hechas en los archivos
+    verde: lo nuevo   rojo: lo que he quitado
+
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
