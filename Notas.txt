@@ -1,0 +1,4 @@
+ls: mostrar los archivos en la carpeta
+git init: inicializar repositorio en una carpeta
+git status: muestra los archivos con los que estamos trabajando
+git add "nombre_del_archivo": agregar archivos en el area de trabajo
